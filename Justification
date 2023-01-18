@@ -11,4 +11,4 @@ Prim's and Kruskal's
 Dijkstra's algorithm on the other hand is used to the minimum distance of every node from source. Is does not focus on producing Spanning tree.
  but this algorithm works well only on directed / undirected graphs with non-negative weights over edges as directed graphs can 
  lead to sudden dead end or can't find minimum paths.
- Therefore, this algorithm fails on working with directed graphs with negative weights.
+ but,I have tried working with directed graphs with negative weights.
