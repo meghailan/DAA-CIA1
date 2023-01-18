@@ -1,7 +1,7 @@
 Prim's and Kruskal's 
   -are two algorithms that are used to find the Minimum spanning Tree.
   -Prims is helpful while working with complex graphs with multiple edges. The edges are stored in the queue as we discover each one. 
-  -Kruskals are helpful in controlling the MST as we consider the edges all at once. 
+  -Kruskals are helpful with less complex graphs and controlling the MST as we consider the edges all at once. 
   -THey are recommended for undirected graphs that has positive weights over the edges. 
   -But I have used the algorithms to solve directed grphs with negative weights.
   -They cannot be used to find the shortest path between and the source and every other nodes, as it considers the whole graph to find the 
@@ -9,6 +9,6 @@ Prim's and Kruskal's
   -Considering the Time complexity comparison, Kruskals is a better algorithm than Prim's.
 
 Dijkstra's algorithm on the other hand is used to the minimum distance of every node from source. Is does not focus on producing Spanning tree.
- but this algorithm works well only on undirected graphs with non-negative weights over edges as directed graphs can 
+ but this algorithm works well only on directed / undirected graphs with non-negative weights over edges as directed graphs can 
  lead to sudden dead end or can't find minimum paths.
  Therefore, this algorithm fails on working with directed graphs with negative weights.
